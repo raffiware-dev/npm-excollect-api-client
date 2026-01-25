@@ -1,0 +1,134 @@
+{
+   "our_dh_priv" : "MC4CAQAwBQYDK2VuBCIEIIbNuYb0nv0-DvHWYu3nA6hAQIXxTQ0HdsNMf0SnoA8S",
+   "resp" : {
+      "location" : "account_api/users/login_user",
+      "data" : {
+         "id" : "au_19e0e3736a674a3ba0e60f53aafa4f93",
+         "accounts_roles" : [
+            {
+               "attributes" : {
+                  "uri_key" : {
+                     "value" : "TST2STCMpkO",
+                     "group" : "CONFIG",
+                     "type" : "text",
+                     "description" : "URI short key",
+                     "name" : "uri_key"
+                  }
+               },
+               "status" : "enabled",
+               "id" : "arau_9636b23101234816ae3ee308094f16dc",
+               "account" : {
+                  "opened" : "2025-10-06T00:29:47.242-07:00",
+                  "closed" : null,
+                  "updated" : "2025-10-06T00:29:47.242-07:00",
+                  "attributes" : {},
+                  "free" : 0,
+                  "name" : "My new account",
+                  "id" : "a_fbe505775611453ab2852fa09c359f37"
+               },
+               "role" : {
+                  "name" : "Owner",
+                  "description" : "Account Owner",
+                  "id" : "ar_40094aa49b914d6db6c4d92312950a73"
+               }
+            }
+         ],
+         "last_name" : "More",
+         "email_addr" : "test23423@test.com",
+         "updated" : "2025-10-06T00:29:47.242-07:00",
+         "login_key" : {
+            "expires" : "2026-04-06T07:29:47.398+00:00",
+            "id" : "lgnk_bcfade6432b94fcfbb4b9cb20b1ee49e",
+            "context" : {
+               "api" : "login",
+               "account_user" : "19e0e373-6a67-4a3b-a0e6-0f53aafa4f93"
+            },
+            "owner_id" : "au_19e0e3736a674a3ba0e60f53aafa4f93",
+            "key_data" : "AdMdCmt8Cn4AhKXzwQ3VyAmEzK2o-Qp3L_SFZCqeEpphOKC8qU7lz1HeUJfgIKfTBxT61JhrzAcGjWPP46WAZm5YplNBzNUWVMxDDMfIgi_fyVodwQs9lhAGSnoJfDPVxmIQuLbhunMQUIq-gNa56IybpJdnBoGCyaFQSIMTRq05",
+            "signed_by" : {
+               "owner_id" : "ca_4229e32d19514534beee764d67790000",
+               "signature" : "E5mDAV4Yq2bvdNVS4vsDEGlL-0VvEePcAKPmDgtq1-NNWbgr_xf66EYRsnMJhC3BC_tmaZDnkfL1p3PMB27iBA",
+               "context" : {
+                  "api" : "login",
+                  "account_user" : "19e0e373-6a67-4a3b-a0e6-0f53aafa4f93"
+               },
+               "created" : "2025-09-14T06:51:16.655+00:00",
+               "key_type" : 99,
+               "public_key" : "MCowBQYDK2VwAyEABdSIdW4J0MYLbY7g2hEzvlYxMHJwKmoinzuqjaoxNh4",
+               "signed_by" : "cak_74a2998712174ea8a7b4d34cce940009",
+               "id" : "cak_4229e32d19514534beee764d6779010a",
+               "expires" : "2027-09-14T06:51:16.655+00:00"
+            },
+            "api_keys" : [
+               {
+                  "context" : {
+                     "api" : "account_user",
+                     "account_user" : "19e0e373-6a67-4a3b-a0e6-0f53aafa4f93"
+                  },
+                  "created" : "2025-10-06T07:29:47.414+00:00",
+                  "key_type" : 7,
+                  "owner_id" : "au_19e0e3736a674a3ba0e60f53aafa4f93",
+                  "signature" : "Z2oBFoH2QXGUTO1L1JZ5bfc4aOLgTniDnaMe_xNzn0KX7luod3cD9NSc2Jj3r6caL44hEDmtB697g-cg3Gu0Bw",
+                  "key_data" : "Aal9X-dHwJslRS1l9RICwcMuTW0DCo6tM-fd8ZG20vIN9mWdrCTC_l8_FWdgd7RX4aYheZ2tcVKk9JMDoye7lKOiTV1gHM_wAbarfr1mFlhAozLNnEiHaAPbNPVzMoqg-PdN7ZoQZROvj0Qm8c0P7xxDTZAy5x9QacQnOhLMem_u",
+                  "public_key" : "MCowBQYDK2VwAyEAoDAcKT8UCigzXNPN_HXcsv-sgUhjja76CihY0zjxhr4",
+                  "signed_by" : {
+                     "id" : "cak_4229e32d19514534beee764d6779010a",
+                     "expires" : "2027-09-14T06:51:16.655+00:00",
+                     "public_key" : "MCowBQYDK2VwAyEABdSIdW4J0MYLbY7g2hEzvlYxMHJwKmoinzuqjaoxNh4",
+                     "signed_by" : "cak_74a2998712174ea8a7b4d34cce940009",
+                     "key_type" : 99,
+                     "context" : {
+                        "api" : "account_user",
+                        "account_user" : "19e0e373-6a67-4a3b-a0e6-0f53aafa4f93"
+                     },
+                     "created" : "2025-09-14T06:51:16.655+00:00",
+                     "owner_id" : "ca_4229e32d19514534beee764d67790000",
+                     "signature" : "E5mDAV4Yq2bvdNVS4vsDEGlL-0VvEePcAKPmDgtq1-NNWbgr_xf66EYRsnMJhC3BC_tmaZDnkfL1p3PMB27iBA"
+                  },
+                  "id" : "uk_9a36778159ae42e2aea6847bdd3f8bf6",
+                  "expires" : "2026-04-06T07:29:47.414+00:00"
+               },
+               {
+                  "key_data" : "AQFiIGPYPPn_7VONiMmGbRK7c5SujmBHMhC2jSrCsKl7kej4qWgytwe1N9LVkUUMqe0odvmNkmtRKQFS69UaguxE7pFyyG-WK6yvwwFf7T97ZHBr68nryMMvlxiP8q88xq9IEMdb37EaggKOARhU8zCjSiUGw1ryJzxV-eubV31E",
+                  "public_key" : "MCowBQYDK2VwAyEAh2V9B-OUTxTv9CJdKUnJEVkXtsY8p8ABmNhOee4r3-U",
+                  "signed_by" : {
+                     "public_key" : "MCowBQYDK2VwAyEABdSIdW4J0MYLbY7g2hEzvlYxMHJwKmoinzuqjaoxNh4",
+                     "signed_by" : "cak_74a2998712174ea8a7b4d34cce940009",
+                     "id" : "cak_4229e32d19514534beee764d6779010a",
+                     "expires" : "2027-09-14T06:51:16.655+00:00",
+                     "signature" : "E5mDAV4Yq2bvdNVS4vsDEGlL-0VvEePcAKPmDgtq1-NNWbgr_xf66EYRsnMJhC3BC_tmaZDnkfL1p3PMB27iBA",
+                     "owner_id" : "ca_4229e32d19514534beee764d67790000",
+                     "context" : {
+                        "api" : "account",
+                        "account_user" : "19e0e373-6a67-4a3b-a0e6-0f53aafa4f93",
+                        "account" : "fbe50577-5611-453a-b285-2fa09c359f37"
+                     },
+                     "created" : "2025-09-14T06:51:16.655+00:00",
+                     "key_type" : 99
+                  },
+                  "id" : "actk_0f1f8fa424b84053a7da27cbc3dd4431",
+                  "expires" : "2026-04-06T07:29:47.429+00:00",
+                  "context" : {
+                     "api" : "account",
+                     "account_user" : "19e0e373-6a67-4a3b-a0e6-0f53aafa4f93",
+                     "account" : "fbe50577-5611-453a-b285-2fa09c359f37"
+                  },
+                  "created" : "2025-10-06T07:29:47.429+00:00",
+                  "key_type" : 6,
+                  "signature" : "8GAfU7RDQWzoucpx1KAD6uT8VJpO1_qnIxFelt1XFW2pCPAP-YjR0oPGJ6brQ2nlSNKoeN5vNyv0kQjsHApKDQ",
+                  "owner_id" : "au_19e0e3736a674a3ba0e60f53aafa4f93"
+               }
+            ],
+            "public_key" : "MCowBQYDK2VuAyEALxpmtoI7WAAnEG-Zz7QPHr1aNg0I5o-Q-YFbHlSgY10",
+            "key_type" : 1,
+            "created" : "2025-10-06T07:29:47.398+00:00",
+            "signature" : "7P8Joetq5SmRnjQVfp32wLeRr0Vrx0iG0cHvrM2f5UMLJWx7-5OZGHCjnWQRPhxPdpLtKzMy4kePQ_HhJmCmBQ"
+         },
+         "last_login" : "2025-10-06T07:29:47.531+00:00",
+         "created" : "2025-10-06T00:29:47.242-07:00",
+         "status" : "active",
+         "first_name" : "Test"
+      }
+   },
+   "their_dh_pub" : "MCowBQYDK2VuAyEAgyqRPAcE7JVT_hMzyyHjk8EUSiEZxI8yaCoEE5yE6yA"
+}
