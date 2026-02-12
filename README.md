@@ -1,3 +1,6 @@
+![Tests](https://github.com/raffiware-dev/npm-excollect-api-client/actions/workflows/tests.yaml/badge.svg?branch=feature/github-actions)
+
+
 ExCollect Javascript API client
 
 
@@ -18,7 +21,7 @@ npm run build
 ```typescript
 import { ExCollectClient } from 'excollect-client';
 
-const client = new ExCollectClient({ 
+const client = new ExCollectClient({
   apiUrl:        'https://devapi.raffiware.io',
   rootAuthority: authorityPubKey,
 });
