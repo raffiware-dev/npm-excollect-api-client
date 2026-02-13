@@ -4,6 +4,7 @@ on:
   push:
     branches:
 #     - '**'  alternative run on all branches
+      - 'testing-matrix'
       - main
   pull_request:
     branches:
